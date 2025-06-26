@@ -6,7 +6,7 @@ import AboutPage from './pages/AboutPage';
 import CoursesPage from './pages/CoursesPage';
 import ContactPage from './pages/ContactPage';
 import AdmissionsPage from './pages/AdimissionPage';
-import './styles/pages.css'
+import './styles/Pages.css'
 import ChatbotComponent from "./components/Chatbot/ChatbotComponent";
 const App = () => {
   return (
