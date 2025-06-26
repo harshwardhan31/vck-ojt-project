@@ -1,3 +1,4 @@
+import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 
 const AboutPage = () => {
@@ -27,6 +28,7 @@ const AboutPage = () => {
     </div>
     </div>
     </div>
+    <Footer/>
     </div>
   )
 }

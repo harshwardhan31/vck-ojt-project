@@ -7,7 +7,7 @@
 }
 
 .inner-body {
-    height: 70%;
+    height: 90%;
     width: 70%;
     margin: 8% 15% 8%;
     background-color:white;
@@ -15,7 +15,7 @@
     overflow-y: auto;
     color: black;
     position: fixed;
-    margin-bottom: -5px;
+    margin-bottom: 0%;
    
     
 
@@ -48,7 +48,7 @@
 .page-style{
     
      background-color:white;
-     height: 160%;
+     height: 300%;
      width: 95%;
      margin: 1%;
     
@@ -66,7 +66,7 @@
     
     float: center;
     position: relative;
-    top: -5%;
+    top: 5;
 }
 body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
     header { background-color: #0377eb; color: white; padding: 1px; }

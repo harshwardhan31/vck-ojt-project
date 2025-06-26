@@ -1,3 +1,4 @@
+import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 
 const HomePage = () => {
@@ -44,6 +45,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
     
   )
