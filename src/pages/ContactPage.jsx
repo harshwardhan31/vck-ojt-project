@@ -3,8 +3,9 @@ import Header from "../components/Header/Header";
 const ContactPage = () => {
   return (
      <div className="style-color">
-    
+        <div class="body">
         <h2><Header/></h2>
+        <div class="inner-body">
         <div className="page-style">
         <h1><font color="blue">Contact Us</font></h1>
         <p align="left">We'd love to hear from you! Whether you have questions about admissions, programs, or campus life, our team is here to help.</p><hr></hr>
@@ -33,6 +34,8 @@ const ContactPage = () => {
         <p align="left">[A contact form with fields for Name, Email, Subject, Message can be added here.]</p>
         
    </div>
+  </div>
+  </div>
   </div>
     
   )

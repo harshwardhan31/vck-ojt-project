@@ -1,3 +1,29 @@
+.body {
+    min-height: 100vh;
+    width: 100%;
+    background-color:aqua;
+    margin-right: 100;
+    margin-bottom: 0;
+}
+
+.inner-body {
+    height: 70%;
+    width: 70%;
+    margin: 8% 15% 8%;
+    background-color:white;
+    border-radius: 15px;
+    overflow-y: auto;
+    color: black;
+    position: fixed;
+    margin-bottom: -5px;
+   
+    
+
+}
+
+
+
+
 .video-container{
     position : relative;
     width : 100%;
@@ -20,11 +46,11 @@
 
 }
 .page-style{
-    overflow:scroll;
+    
      background-color:white;
-     height: 200%;
-     width: 85%;
-     margin: 10%;
+     height: 160%;
+     width: 95%;
+     margin: 1%;
     
      
 
@@ -40,11 +66,11 @@
     
     float: center;
     position: relative;
-    top: 50%;
+    top: -5%;
 }
 body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
     header { background-color: #0377eb; color: white; padding: 1px; }
     nav a { color: white; margin: 0 15px; text-decoration: none; }
-    .apply-button { background-color: green; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+    .apply-button { background-color: green; color: white; padding: 100% 200%; text-decoration: none; border-radius: 500%; }
     .hero { padding: 40px; text-align: center; background-color: #f0f8ff; }
     .footer { background-color: #222; color: #aaa; padding: 10px; text-align: center; }

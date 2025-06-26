@@ -2,8 +2,11 @@ import Header from "../components/Header/Header";
 
 const CoursesPage = () => {
   return (
+    
     <div className="style-color">
+      <div class="body">
     <h2><Header/></h2>
+    <div class="inner-body">
          <div className="page-style">
        <h1><font color="blue"> Our Academic Programs</font></h1>
 <p align="left">Vivekanand College offers a comprehensive range of undergraduate and postgraduate programs designed to equip students with the knowledge and skills demanded by today's dynamic global landscape. Our curriculum is regularly updated to reflect industry trends and academic advancements.</p><hr></hr>
@@ -91,6 +94,8 @@ const CoursesPage = () => {
 
           <p align="center">Have questions about a specific course?</p>
           <a href="/contact"><center><button>Inquire About Courses</button></center></a>
+    </div>
+    </div>
     </div>
     </div>
   )
