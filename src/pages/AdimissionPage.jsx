@@ -1,9 +1,11 @@
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
+
 const AdmissionsPage = () => {
   return (
     <div className="style-color">
         <div class="body">
+            <Header/>
         <div class="inner-body">
     <div className="page-style">
         <h1><font color="blue">Admissions at Vivekanand College</font></h1>

@@ -1,6 +1,7 @@
+
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
-
+import { Link } from "react-router-dom";
 const CoursesPage = () => {
   return (
     
@@ -94,7 +95,7 @@ const CoursesPage = () => {
           <p align="left">In addition to traditional degree programs, we offer various certificate and diploma courses in areas like Digital Marketing, Web Development, Data Analytics, and Soft Skills Development, providing specialized training for career enhancement.</p>
 
           <p align="center">Have questions about a specific course?</p>
-          <a href="/contact"><center><button>Inquire About Courses</button></center></a>
+          <Link to="/contact"><center><button>Inquire About Courses</button></center></Link>
     </div>
     </div>
     </div>

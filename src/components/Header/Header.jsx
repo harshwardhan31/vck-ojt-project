@@ -20,7 +20,7 @@ const Header = () => {
                 <Link to="/contact">Contact</Link>
                
                 
-                <a href="/admissions" align="right"><button>Apply Now!</button></a>
+                <Link to="/admissions" align="right"><button>Apply Now!</button></Link>
                 </p>
                  </h2>
                 </div>

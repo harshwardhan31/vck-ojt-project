@@ -1,6 +1,6 @@
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
-
+import { Link } from "react-router-dom";
 const HomePage = () => {
   return (
     
@@ -16,7 +16,7 @@ const HomePage = () => {
                 <img src="\images\vckbanner.png" width="120%" height="300px"></img>
                 <h1>Welcome to Vivekanand College !</h1>
                 <h2>Your journey to excellence starts here.</h2>
-                <a href="/admissions" align="center"><h2><button>Apply Now!</button></h2></a><hr></hr>
+                <Link to="/admissions" align="center"><h2><button>Apply Now!</button></h2></Link><hr></hr>
 
               </div>
             </span>
@@ -41,7 +41,7 @@ const HomePage = () => {
             <p>Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.</p>
 
             <p>Ready to explore our courses?</p>
-            <a href="/courses" align="center"><center><button>Explore Courses</button></center></a>
+            <Link to="/courses" align="center"><center><button>Explore Courses</button></center></Link>
           </div>
         </div>
       </div>
